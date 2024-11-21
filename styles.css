@@ -1,0 +1,31 @@
+body {
+  width: 400px;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+button {
+  margin-bottom: 10px;
+}
+
+.news-section {
+  margin-bottom: 20px;
+}
+
+.news-item {
+  margin-bottom: 15px;
+}
+
+.news-item h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.news-item p {
+  margin: 5px 0;
+  font-size: 14px;
+}

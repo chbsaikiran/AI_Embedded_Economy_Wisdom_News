@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "AI, Embedded and Indian Economy News Summarizer",
+  "version": "1.0",
+  "description": "Finds and summarizes top AI, Embedded and Indian Economy News articles",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": [
+    "https://newsapi.org/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
